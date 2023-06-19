@@ -20,7 +20,7 @@ export const getMovimientos = async () => {
                 <td class = "td">${data[i].description}</td>
                 <td class = "td">${data[i].precio}</td>
                 <td class = "td">${data[i].type}</td>
-                <td class = "td">${data[i].action}</td>
+                <td class = "button">${data[i].action}</td>
 
             </tr>`
         }

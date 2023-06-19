@@ -13,10 +13,31 @@
         <nav>
             <h1> Mi Presupuesto </h1>
         </nav>
+        <button> Agregar Movimiento</button>
+
 
     </header>
 
     <main class="main" id="main">
+
+        <form>
+
+            <label for="description">Descripción del Movimiento</label>
+            <input type="text" id="description" placeholder="Ingrese una Descripción">
+            <label for="price">Valor del Movimiento</label>
+            <input type="number" id="price" placeholder="Ingrese Valor">
+            <label for="type">Tipo de Movimiento</label>
+            <select id="type">
+
+                <option value="">Seleccione una Opción</option>
+                <option value="gasto">Gasto</option>
+                <option value="ingreso">Ingreso</option>
+
+            </select> 
+
+            <button type="submit">GUARDAR</button>
+
+        </form>
 
         <div class="container" id="container">
 
@@ -28,6 +49,8 @@
                 </thead>
                 <tbody class="body" id="body">
 
+
+                    
                 </tbody>
             </table>
 
